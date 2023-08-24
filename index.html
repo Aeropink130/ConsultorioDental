@@ -5,63 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Diente Feliz</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="./assets/style/style.css"> <!-- Linkeamos la hoja de estilo al html -->
 </head>
 
 <body>
-    <div style="text-align: center;"> <!-- Centrado -->
-        <h1 style="color: rgb(29, 197, 166);">Consultorio El Diente Feliz</h1><!-- título dentro de la página -->
-    </div>
 
-    <div style="text-align: center;">
+    <div>
+        <h1>Consultorio El Diente Feliz</h1><!-- título dentro de la página -->
         <hr> <!-- division -->
         <h2>Dr Jairo Campos</h2>
+        <div>
+            <img src="./assets/img/Image20230822122549.jpg" alt="Doc" width="350">
+        </div>
         Graduado de la Facutlad de Odontología de la UNAM, generación 1961 - 1965, con cédula
-        profesional <span style="color: blue;">175385 D.G.P.</span>
-        <center> <!-- Para centrar la imagen -->
-            <img src="./IMG/Image20230822122549.jpg" alt="Doc" width="350">
-        </center>
+        profesional <span>175385 D.G.P.</span>
+
+        <div class="Contenedor"> <!-- Creamos un contenedor para la sección quiénes sosmo -->
+            <h3 class="Titulo-Contenedor">Quiénes somos</h3> <!-- creamos una clase para no modificar los demás h3 -->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quasi? Consequatur illum voluptatibus,
+                porro molestias natus cupiditate, deleniti, perspiciatis praesentium explicabo ut maiores obcaecati amet
+                corrupti velit adipisci iusto accusantium.</p>
+        </div>
         <hr>
     </div>
 
-
+    <h2>Servicios</h2><!-- Lista de servicios -->
+    <ul>
+        <li>Extracciones</li>
+        <li>Limpieza</li>
+        <li>Blanqueamiento</li>
+        <li>Diseño de sonrisas</li>
+        <li>Tratamiento de caries</li>
+        <li>Brackets</li>
+    </ul>
     <div>
-
-        <h2 style="color: rgb(29, 197, 166);">Servicios</h2><!-- Lista de servicios -->
-        <ul>
-            <li>Extracciones</li>
-            <li>Limpieza</li>
-            <li>Blanqueamiento</li>
-            <li>Diseño de sonrisas</li>
-            <li>Tratamiento de caries</li>
-            <li>Brackets</li>
-        </ul>
-
         <img src="https://images.pexels.com/photos/3762453/pexels-photo-3762453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Sonrisa" , width="350"> <!-- Imagen de sonrisa -->
-
-        <h3 style="color: rgb(29, 197, 166);">Horarios de Atención<noscript></noscript></h3>
-        <!-- Lsita de los hirarios -->
-        <ul>
-            <li>Lun - Vi: 9 a.m. - 6 p.m.</li>
-            <li>Sab: 9 a.m. - 2 p.m</li>
-        </ul>
+    </div>
 
 
+    <h3>Horarios de Atención<noscript></noscript></h3>
+    <!-- Lsita de los hirarios -->
+    <ul>
+        <li>Lun: Vi: 9 a.m. - 6 p.m.</li>
+        <li>Sab: 9 a.m. - 2 p.m</li>
+    </ul>
 
+    <div>
         <img src="https://i.pinimg.com/564x/56/fc/07/56fc07af3dc1b2350a8e7b0a6f035730.jpg" alt="Consultorio" ,
             width="400">
-
     </div>
+
+
+
     <div>
-        <h3 style="color: rgb(29, 197, 166);">Ubicación</h3> <!-- ubicación -->
+        <h3>Ubicación</h3> <!-- ubicación -->
+        <!-- Mapa de la ubicación :) -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.338643307904!2d-99.19855319999999!3d19.440960999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2021a843d2a1b%3A0xe7656ed95e724022!2sBlvd.%20Miguel%20de%20Cervantes%20Saavedra%2C%20Granada%2C%2011529%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1692918770632!5m2!1sen!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p>Blvd. Miguel de Cervantes Saavedra, Granada, Miguel Hidalgo, 11529 Ciudad de México, CDMX</p>
         <!-- Ubicación en texto -->
         <a href="https://www.google.com/maps/place/Blvd.+Miguel+de+Cervantes+Saavedra,+Granada,+11529+Ciudad+de+M%C3%A9xico,+CDMX/data=!4m2!3m1!1s0x85d2021a843d2a1b:0xe7656ed95e724022?sa=X&ved=2ahUKEwiQjOa08_CAAxXPDEQIHcV9CW0Q8gF6BAgVEAA&ved=2ahUKEwiQjOa08_CAAxXPDEQIHcV9CW0Q8gF6BAgWEAI"
             , target="_blank">Ver
             en Maps</a> <!-- Link de maps -->
     </div>
-    <div style="font-size: larger;">
-        <a href="https://wa.me/528714615614">Agenda tu cita aquí</a> <img src="./IMG/pngwing.com.png"
+    <div>
+        <a href="https://wa.me/528714615614">Agenda tu cita aquí</a> <img src="./assets/img/pngwing.com.png "
             alt="whatsapp logo" , width="20"> <!-- Link para whatsapp -->
     </div>
 
