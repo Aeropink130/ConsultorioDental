@@ -20,9 +20,14 @@ body {
 
 }
 
+#Cedula {
+    color: blue;
+}
+
 img {
     -webkit-border-radius: 31px;
     border-radius: 31px;
+    width: 350px;
 }
 
 h1,
