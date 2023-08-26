@@ -1,7 +1,6 @@
 body {
 
-    margin: 0;
-
+    margin: 10;
     background: #FFF1CF;
     background: -moz-linear-gradient(top, #FFF1CF 0%, #FBFFEB 57%, #FFF1CF 100%);
     background: -webkit-linear-gradient(top, #FFF1CF 0%, #FBFFEB 57%, #FFF1CF 100%);
@@ -34,6 +33,7 @@ h1,
 h2,
 h3 {
     color: rgb(29, 197, 166);
+    text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.55);
 }
 
 div {
@@ -43,11 +43,15 @@ div {
 .Contenedor {
 
     background-color: #FFF1CF;
-    height: 180px;
-    padding: 10px;
+    /* height: 180px; */
+    padding: 3%;
 }
 
 .Titulo-Contenedor {
     text-transform: uppercase;
     font-size: 25px;
+}
+
+#IconWhats {
+    width: 20px;
 }
