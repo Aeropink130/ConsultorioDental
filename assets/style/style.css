@@ -1,19 +1,30 @@
 body {
 
-    margin: 10px 10px 50px 10px;
-    background: #e8fdff;
+    /* margin: 10px 10px 50px 10px; */
+    background: #f5f5f5;
 
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     word-spacing: 2px;
-    color: #5B4526;
+    color: #000000;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
 
+}
+
+h1 {
+    font-family: Helvetica;
+    color: #0e1f4b;
+    letter-spacing: -0.6px;
+    word-spacing: 2px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
 }
 
 footer {
@@ -28,19 +39,58 @@ footer {
     color: blue;
 }
 
+.container {
+    text-align: center;
+    background-color: #bcd2de;
+    padding: 10px;
+}
+
+.card {
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.tarjetaImg {
+    background-color: #bcd2de;
+    border: #bcd2de;
+}
+
+nav {
+    background-color: darkcyan;
+}
+
+
 img {
     -webkit-border-radius: 31px;
     border-radius: 31px;
+    width: 100%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.imgCarrusel {
     width: 350px;
+    height: 350px;
+    border-radius: 0;
 }
 
-h1,
-h2,
-h3 {
-    color: rgb(29, 197, 166);
-    text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.55);
+ul {
+    display: inline-block;
 }
 
+.navbar {
+    background-color: #73c2c2;
+}
+
+#cabecera {
+    background: url(./../img/fondo-header.png) no-repeat 100%;
+    background-color: #ffffff;
+    height: 250px;
+}
+
+
+
+/* 
 div {
     text-align: center;
 }
@@ -48,7 +98,7 @@ div {
 .Contenedor {
 
     background-color: #FFF;
-    /* height: 180px; */
+    height: 180px;
     padding: 3%;
     border: 1px solid rgba(0, 0, 0, 0.24);
     border-radius: 17px;
@@ -135,9 +185,9 @@ label {
     display: flex;
     justify-content: center;
     font-size: medium;
-    /* align-items: center; */
-    /* min-height: 100vh; */
-    /* Para centrar verticalmente también */
+    align-items: center;
+    min-height: 100vh;
+    Para centrar verticalmente también
 }
 
 fieldset {
@@ -157,4 +207,4 @@ legend {
 select {
     border: 1px solid #000000;
     border-radius: 40px;
-}
+} */
